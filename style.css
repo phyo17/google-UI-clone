@@ -1,0 +1,74 @@
+a, a:focus, a:hover {
+  color: #fff;
+}
+
+h3.logo {
+  color: #fff;
+}
+
+html, body {
+  height: 100%;
+  background-color: #333;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.nav-head {
+  margin-bottom: 2rem;
+}
+
+.logo {
+  padding: 0.2rem 0;
+  margin-bottom: 0;
+  float: left;
+}
+
+.navbar {
+  float: right;
+}
+
+.navbar .nav-link {
+  position: relative;
+  padding: 0.25rem 0;
+  margin-left: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 0.2rem solid transparent;
+  transition: ease-in 0.2s;
+}
+
+.nav-link.active {
+  display: none;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  border-bottom-color: #fff;
+}
+
+h1.google_logo {
+  color: #fff;
+  font-size: 7em;
+  margin: 2rem 0;
+}
+
+form input {
+  width: 45%;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-radius: 1.1rem;
+  border-color: #fff;
+  margin: 0rem 1rem 1rem;
+}
+form button {
+  background-color: transparent;
+  color: #fff;
+  border-style: none;
+  font-size: 1.3rem;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
